@@ -1,0 +1,165 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.image1{
+    width: 130px;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+
+}
+.Head{
+    display: flex;
+    justify-content: space-between;
+
+}
+.icon{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    
+}
+.main{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    
+}
+.icon li a i{
+    display: block;
+    text-align: center;
+
+}
+.icon li:last-child{
+    position: relative;
+}
+.icon li:last-child::after{
+    content: "";
+    position:absolute;
+    top:0% ;
+    left: 200%;
+    width: 2px;
+    height: 40px;
+    background-color: black;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    
+
+
+}
+.sign{
+    border-radius: 50px;
+    background-color:white;
+    border-color: cornflowerblue;
+    width: 60px;
+    height: 30px;
+}
+.join{
+    border-style: none;
+    background-color: white;
+}
+.box{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+h1{
+    color:tan;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    font-size: 60px;
+}
+.forgot{
+    color: cornflowerblue;
+}
+.Signin{
+    border-radius: 50px;
+    width: 400px;
+    height: 40px;
+    background-color: blue;
+    color: aliceblue;
+    border-color: blue;
+
+}
+.hr1{
+    width: 80px;
+    margin: 0%;
+
+}
+.image2{
+    width: 600px;
+    height: 600px;
+}
+.form{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 100px;
+    
+
+
+}
+.horizontal{
+    margin: 30px 0;
+    font-weight: 600;
+    font-size: 14px;
+    color: black;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .horizontal::before{
+    content: "";
+    display: inline-flex;
+    width: 180px;
+    height: 1px;
+    background-color: black;
+    align-items: center;
+    margin-right: 10px;
+  }
+.horizontal::after{
+    content: "";
+    display: inline-flex;
+    width: 180px;
+    height: 1px;
+    background-color: black;
+    align-items: center;
+    margin-left: 10px;
+  }
+.google{
+    border-radius: 50px;
+    width: 400px;
+    height: 40px;
+    background-color:white;
+}
+.new{
+    border-radius: 50px;
+    width: 400px;
+    height: 40px;
+    background-color:white;
+}
+.image3{
+    
+    width: 15px;
+    display: inline-flex;
+    align-items: center;
+}
+
+#email{
+    width: 400px;
+    height: 40px;
+}
+#password{
+    width: 400px;
+    height: 40px;
+}
